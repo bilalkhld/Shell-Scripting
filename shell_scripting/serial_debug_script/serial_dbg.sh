@@ -57,6 +57,7 @@ fi
 
 echo "$0: AT Channel Port is : $atPort"
 
+#TODO permission denied error handling
 # start process to listen file
 echo "$0: Start reading file $atPort"
 cat $atPort & 1>&2
